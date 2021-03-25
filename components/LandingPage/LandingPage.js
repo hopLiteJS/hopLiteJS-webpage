@@ -14,14 +14,13 @@ const useStyles = makeStyles((theme) => ({
   },
   top: {
     display: 'flex',
-    backgroundColor: '#124653',  }
-
+    backgroundColor: '#124653',  
+  }
 
 }));
 
 export default function LandingPage() {
   const classes = useStyles();
-
 
   return (
     <div className= {classes.root}>
@@ -29,19 +28,19 @@ export default function LandingPage() {
         <Grid item xs={12}>
           <NavBar/>
         </Grid>
-        <div className= {classes.top}>
-          <Grid item xs={12}>
-            <h1 id='welcome' style={{textAlign: 'center'}}>Welcome to hopLiteJS!</h1>
-          </Grid>
-          
-          <Grid item xs={5}>
-            <img src='/HOPLITE.png' alt='large hoplite logo' width={500} height={500}/> 
-          </Grid>
+        {/* <div className= {classes.top}> */}
+        <Grid item xs={12}>
+          <h1 id='welcome' style={{textAlign: 'center'}}>Welcome to hopLiteJS!</h1>
+        </Grid>
+        
+        <Grid item xs={5}>
+          <img src='/HOPLITE.png' alt='large hoplite logo' width={500} height={500}/> 
+        </Grid>
 
-          <Grid item xs={7}>
-            <WhyHoplite />
-          </Grid>
-        </div>
+        <Grid item xs={7}>
+          <WhyHoplite />
+        </Grid>
+        {/* </div> */}
       
         <Grid item xs={6}>
           <GetStarted />

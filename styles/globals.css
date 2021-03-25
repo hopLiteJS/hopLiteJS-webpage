@@ -2,8 +2,7 @@ html,
 body {
   /* background-color: #fbfbff;  */
   /* #dd5e89 → #f7bb97 */
-  background-image: linear-gradient(to bottom, #052420, #314e53, #687a86, #a4a9b8, #e2dce8);
-  font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
+  background-image: linear-gradient(to right bottom, #847e7c, #7b716f, #726462, #695757, #5f4a4d, #654b55, #674d60, #64516d, #5c6991, #3b84ad, #009fb6, #15b8ab);  font-family: Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
   color: white;
   }
 

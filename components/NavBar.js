@@ -10,7 +10,6 @@ import Link from 'next/link';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 
 
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
